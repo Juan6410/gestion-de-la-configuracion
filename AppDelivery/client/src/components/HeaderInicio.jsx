@@ -16,7 +16,7 @@ const Header = () => {
                 <input className="form-control" type="text" placeholder="Search" aria-label="Search"/>
                
                 </form>
-                <a  class="fcc-btn" href='/login' style={{color:'white'}}>log out</a>
+                <a  class="fcc-btn" href='/' style={{color:'white'}}>log out</a>
                 
             </div>
             
