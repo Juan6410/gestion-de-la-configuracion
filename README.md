@@ -41,3 +41,5 @@
          - cd AppDelivery
          - cd server
          - npm run dev (Esto inicializa la parte del back-end)
+
+4. Para generar el build del front no ubicamos en la carpeta client dentro de nuestro proyecto y desde la teminal, ejecutamos el comando npm run build. Este comamdo lo encontramos dentro de el archivo package.json que especifica el comando para llevar acabo esta operacion.
