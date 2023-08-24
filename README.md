@@ -40,4 +40,4 @@
          - npm run dev (Esto inicializa la parte del back-end)
 
 5. Para generar el build del front nos ubicamos en la carpeta client dentro de nuestro proyecto y desde la cmd ejecutamos el comando npm run build. Este comamdo lo encontramos dentro de el archivo package.json que especifica el comando para llevar acabo esta operacion.
-6. Para generar el built del back nos ubicamos en la carpeta server dentro de nuestro poryecto y desde la cmd ejecutamos
+6. Para generar el built del back nos ubicamos en la carpeta server dentro de nuestro poryecto y desde la cmd ejecutamos  - npm install -g express-generator y luego  ejecutamos  -  express build --view pug
