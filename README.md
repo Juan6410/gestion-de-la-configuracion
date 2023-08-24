@@ -1,27 +1,24 @@
 # gestion-de-la-configuracion
 (Estas instrucciones son para ser ejecutadas en un windows 10 ó 11)
-(Si despues de descargar algun paquete o programa complementario no se reconoce se debe cerrar el VS code y volver abrirlo bastaría para que se cargen de forma correcta)
 
-1. Para ejecutar el programa debes contar con un editor de codigo fuente, en este caso usaremos Visual Studio Code.
-   -Si no cuentas con el programa lo puedes descargar aquí: https://code.visualstudio.com/download, escoge la version de windows.
-   -Una vez instalado en tu escritorio aparecera un ejecutable llamado VSCodeUserSetup debes darle click para hacer la respectiva instalacion del editor.
    
 2. Debemos clonar el repositorio que aloja el codigo de la aplicacion, para esto tendremos que tener instalado Git.
    
-   2.1. Ejecuta en la terminal de Visual Studio Code el comando: git --version, esto debería mostarte la version de Git instalada en tu computador pero, sí
+   2.1. Ejecuta en el cmd el comando: git --version, esto debería mostarte la version de Git instalada en tu computador pero, sí
        obtienes un error quiere decir que es necesario que instales Git.
          -Aquí puedes descargarlo: https://git-scm.com/download/win, puedes escoger la version de 64 bit o de 32 bit dependiendo de tu version de windows.
-         -Al igual que VS Code se generará un ejecutable en tu escritorio donde deberás darle click para hacer la respectiva intalacion de Git.
+         -Se generará un ejecutable en tu escritorio donde deberás darle click para hacer la respectiva intalacion de Git.
    
    2.2. Para clonar el repositorio debes ejecutar los siguientes comandos en la terminal de VS code:
          - cd Desktop      (Nos situamos en el escritorio)
          - mkdir Proyecto  (Creamos una carpeta en el escritorio con nombre Proyecto)
          - git init        (Inicializamos un repositorio)
          - git clone https://github.com/Juan6410/gestion-de-la-configuracion.git  ( Clonamos el repositorio )
+         -  (Este paso solo en caso de que le pidan asociar una cuenta para clonar el repositorio)   git config --global user.email "Su correo Electronico" 
          - cd gestion-de-la-configuracion  (Nos ubicamos en el repositorio clonado)
          - git pull origin Juan_Jose_Cordoba_Marin_Luis_Felipe_Gomez_Giraldo (Jalamos los archivos alojados en el repositorio en la rama especificada)
    
-3. Ahora ejecutaremos en la terminal tanto el client como el server, Para hacer estas cosas necesitaremos Node.js y npm, para verificar si se encuentran instalados en tu pc en la terminal puedes poner
+4. Ahora ejecutaremos en la terminal tanto el client como el server, Para hacer estas cosas necesitaremos Node.js y npm, para verificar si se encuentran instalados en tu pc en la terminal puedes poner
    node -v  para Node.js y npm -v para npm si alguno de estos te muestra error deberas instalarlo.
    
    -Puedes instalar Node.js en https://nodejs.org/en/download y escoger la version LTS para windows, despues de esto abre el archivo descargado y completa la instalación.
@@ -42,4 +39,4 @@
          - cd server
          - npm run dev (Esto inicializa la parte del back-end)
 
-4. Para generar el build del front no ubicamos en la carpeta client dentro de nuestro proyecto y desde la teminal, ejecutamos el comando npm run build. Este comamdo lo encontramos dentro de el archivo package.json que especifica el comando para llevar acabo esta operacion.
+5. Para generar el build del front no ubicamos en la carpeta client dentro de nuestro proyecto y desde la teminal, ejecutamos el comando npm run build. Este comamdo lo encontramos dentro de el archivo package.json que especifica el comando para llevar acabo esta operacion.
