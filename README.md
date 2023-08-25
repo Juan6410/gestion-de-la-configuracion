@@ -9,7 +9,7 @@
          -Aquí puedes descargarlo: https://git-scm.com/download/win, puedes escoger la version de 64 bit o de 32 bit dependiendo de tu version de windows.
          -Se generará un ejecutable en tu escritorio donde deberás darle click para hacer la respectiva intalacion de Git.
    
-   1.2. Para clonar el repositorio debes ejecutar los siguientes comandos en la cmd:
+   1.2. Para clonar el repositorio debes ejecutar los siguientes comandos en la cmd (se puede entrar al cmd desde la barra de busqueda de windows):
          - cd Desktop      (Nos situamos en el escritorio)
          - mkdir Proyecto  (Creamos una carpeta en el escritorio con nombre Proyecto)
          - git init        (Inicializamos un repositorio)
@@ -19,11 +19,11 @@
          - git pull origin Juan_Jose_Cordoba_Marin_Luis_Felipe_Gomez_Giraldo (Jalamos los archivos alojados en el repositorio en la rama especificada)
    
 2. Ahora ejecutaremos en el cmd tanto el client como el server, Para hacer estas cosas necesitaremos Node.js y npm, para verificar si se encuentran instalados en tu pc en la cmd puedes poner
-   node -v  para Node.js y npm -v para npm si alguno de estos te muestra error deberas instalarlo.
+   "node -v" para Node.js y "npm -v" para npm, si alguno de estos te muestra error deberas instalarlo.
    
    -Puedes instalar Node.js en https://nodejs.org/en/download y escoger la version LTS para windows, despues de esto abre el archivo descargado y completa la instalación.
    -Para la instalación de npm basta con poner el siguiente comando en la cmd: npm install -g npm
-   -Debemos pararnos en la carpeta raiz de la aplicacion en este caso AppDelivery y ejecutar el comando npm install (esto instalará todas librerias y dependencias usadas en el proyecto, las cuales se encuentran en un          archivo llamado package.json)
+   -Debemos situarnos en la carpeta raiz de la aplicacion en este caso AppDelivery y ejecutar el comando npm install (esto instalará todas librerias y dependencias usadas en el proyecto, las cuales se encuentran en un          archivo llamado package.json)
    
     2.1.  Necesitamos iniciar dos cmd, ya tenemos una que es la que hemos venido ejecuando los pasos anteriores y abriremos una nueva.
          - En la cmd que ya teniamos abierta estamos ubicados en el repositorio clonado gestion-de-la-configuracion, ahora nos situaremos en la carpeta client que se encuentra dentro de AppDelivery.
