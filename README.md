@@ -1,4 +1,6 @@
 # gestion-de-la-configuracion
+
+### Puedes ir a la [wiki](https://github.com/Juan6410/gestion-de-la-configuracion/wiki) para obtener mas Informacion acerca del proyecto
 (Estas instrucciones son para ser ejecutadas en un windows 10 ó 11)
 
    
