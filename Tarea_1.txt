@@ -1,0 +1,27 @@
+¿Qué problemas soluciona? 
+
+El CMMI soluciona problemas relacionados con la falta de estructura, consistencia y calidad en los procesos organizativos 
+al proporcionar un enfoque sistemático y estructurado para la mejora continua. Ayuda a las organizaciones a identificar áreas de mejora,
+establecer metas claras y medibles, y aumentar su capacidad para entregar productos y servicios de manera más efectiva y eficiente.
+
+Respecto a sus niveles:
+El CMMI (Capability Maturity Model Integration) consta de cinco niveles de madurez que representan diferentes grados de capacidad y madurez 
+en la gestión y mejora de procesos. Estos niveles describen cómo una organización aborda y mejora sus procesos. Los niveles son:
+
+1. Inicial (Nivel 1): En este nivel, los procesos son ad hoc, caóticos y poco controlados. Las actividades se realizan de manera inconsistente y 
+no se siguen estándares definidos. La organización tiene poca capacidad para predecir los resultados de sus procesos.
+
+2. Gestionado (Nivel 2): En este nivel, se introducen prácticas de gestión de proyectos y procesos básicas. Los procesos son planificados, 
+ejecutados y controlados de manera más estructurada. Se establecen estándares y se documentan los procedimientos.
+
+3. Definido (Nivel 3): En este nivel, la organización establece procesos estandarizados y bien definidos para la gestión de proyectos y la 
+ingeniería. Se enfoca en la mejora continua y la optimización de los procesos.
+
+4. Cuantitativamente Gestionado (Nivel 4): En este nivel, la organización se enfoca en la medición cuantitativa y el control de procesos. Se 
+recopilan datos y se analizan para tomar decisiones basadas en hechos.
+
+5. Optimizado (Nivel 5): En este nivel, la organización busca la mejora continua a través de la innovación y la optimización. Los procesos se 
+adaptan y mejoran de manera proactiva en función de las lecciones aprendidas y las mejores prácticas.
+
+Cada nivel de madurez implica una mayor disciplina en la gestión de procesos y una mayor capacidad para producir resultados consistentes y de 
+calidad. Las organizaciones pueden aspirar a alcanzar niveles más altos de madurez para mejorar su eficiencia, calidad y capacidad de entrega.
